@@ -1,0 +1,16 @@
+{
+    "PAMPHLET": {
+       "exits": {},
+       "actions": {
+          "READ": "The pamphlet says, Welcome to Zork!"
+       },
+       "points": 1
+    },
+    "SWORD": {
+       "exits": {
+          "CELLA": "The sword glows with a faint blue glow!"
+       },
+       "actions": {},
+       "points": 10
+    }
+ }

@@ -1,0 +1,39 @@
+{
+	"BRIDGE": {
+		"name": "Bridge of the Enterprise",
+		"desc": "You are standing on the bridge of the Enterprise. Lt. Commander Data is at the Ops, and Wesley has the helm. Mr Wolf is barking something about Romulans.",
+		"exits": [{
+			"exit": "READYROOM",
+            "target": "READYROOM"
+        }, {
+            "exit": "TURBOLIFT",
+            "target": "TURBOLIFT"
+		},],
+        "items": []
+    }
+    ,"READYROOM": {
+        "name": "Captain's ready room",
+		"desc": "You are in the Captain's ready room. Captain Picard is seated behind his desk, sipping tea.",
+		"exits": [{
+			"exit": "BRIDGE",
+            "target": "BRIDGE"
+        }],
+        "items": [
+            "item":"PHASER"
+            ,"desc":"A type 1 phaser is on the Captain's desk."
+            ,"take":"You take the phaser while the Captain isn't looking and slip it into your pocket...oh wait, your uniform doesn't have pockets."
+        ]
+    }
+    ,"TURBOLIFT":{
+    "name": "Turbolife",
+    "desc": "You are in a non-descript turbolift.",
+    "exits": [{
+        "exit": "BRIDGE",
+        "target": "BRIDGE"
+    },
+    {     
+    "exit": "ENGINEERING",
+    "target": "ENGINEERING"
+    }],
+    "items": []
+}
